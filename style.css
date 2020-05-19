@@ -1,33 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:wght@300&family=Source+Code+Pro:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
+
+html {
+    -webkit-height: 100%;
+    -moz-height: 100%;
+    -ms-height: 100%;
+    -o-height: 100%;
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    background-color: #FFF294;
+    background-image: url(./pictures/bgpicture.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .container {
-    margin: auto;
-    text-align: center;
-    position: relative;
-    vertical-align: middle;
+    /*text-align: center;*/
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .text{
     display: inline-block;
+    width: 300px;
     position: relative;
     padding: 24px;
-    vertical-align: middle;
-    border: 1px solid black;
-    text-align: left;
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
 }
 
 .picture {
     display: inline-block;
     position: relative;
     padding: 24px;
-    vertical-align: middle;
-    border: 1px solid black;
-
 }
 
 img {
     height: 450px;
     width: 300px;
     object-fit: cover;
-    object-position: 60%;-moz-border-radius:15px;
+    object-position: 60%;
+    -moz-border-radius:15px;
     -webkit-border-radius:15px;
     border-radius: 15px;
+    
+}
+
+strong {
+    font-size: 3.5em;
+    font-family: 'Audiowide', cursive;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+button {
+    background-color: sandybrown;
+    color: black;
+    border: 1px solid black;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: gold;
+    color: red;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px grey;
 }
