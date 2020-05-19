@@ -1,0 +1,33 @@
+.container {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.text{
+    display: inline-block;
+    position: relative;
+    padding: 24px;
+    vertical-align: middle;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.picture {
+    display: inline-block;
+    position: relative;
+    padding: 24px;
+    vertical-align: middle;
+    border: 1px solid black;
+
+}
+
+img {
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 60%;-moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius: 15px;
+}
